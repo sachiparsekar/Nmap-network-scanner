@@ -23,20 +23,21 @@ Step 1: Download the Installer
 1.	Go to the official download page:
     https://nmap.org/download.html
 2.	Under Microsoft Windows Binaries, click the link for the latest self-installer:
-    Example: nmap-7.94-setup.exe (the version number may vary).
+
+  	Example: nmap-7.94-setup.exe (the version number may vary).
 3.	Save the file to your system.
 
 Step 2: Run the Installer
 
 1.	Double-click the downloaded .exe file.
 2.	Follow the on-screen instructions:
+
    a. Accept the license agreement.
+   
    b. Keep the default components selected:
   	
   	Nmap command-line tool
-  	
   	Zenmap GUI
-  	
   	Npcap (essential for packet capture)
   	
 3.	Click Install.
