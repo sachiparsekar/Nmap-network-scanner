@@ -1,0 +1,16 @@
+#Scan types and commands
+
+1. Discover Devices on Network	
+nmap -sn 192.168.154.0/24
+
+2. Basic Scan on Public Host	
+nmap scanme.nmap.org
+
+3. Port Scan	
+nmap -p 1-1000 192.168.154.1
+
+4. Aggressive Scan (OS & Service Detection)	
+nmap -A 192.168.154.1
+
+5. Save Scan Output to File	
+nmap -A 192.168.154.1 -oN output.txt
