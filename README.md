@@ -49,7 +49,7 @@ After installation:
 
 1.	Open Command Prompt (press Windows + R, type cmd, hit Enter).
 2.	Type the following command:
-
+    nmap --version 
 
 Usage Instructions (Basic Commands)
 
