@@ -73,3 +73,16 @@ Suitable for deeper network reconnaissance and penetration testing.
 5. Storing Output: 
 Outputs are useful for documentation, security assessments, and reviewing results later.
 -oN format provides clean, human-readable output
+
+
+Issues encountered:
+
+1. Ping Sweep: Some devices might be missed if they have ICMP blocked by a firewall or antivirus.
+
+2. scanme.nmap.org: No issues, though limited information since it's configured safely by Nmap.
+
+3. Port Scan: Certain ports showed as "filtered" due to firewall/NAT behavior.
+
+4. Aggressive Scan: OS detection was inconclusive (Nmap could not match an exact OS). Scan took longer (~30 seconds). May trigger alerts on intrusion detection systems.
+
+5. Output to File: No issues. File was successfully created in the working directory.
