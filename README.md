@@ -72,5 +72,4 @@ Suitable for deeper network reconnaissance and penetration testing.
 
 5. Storing Output: 
 Outputs are useful for documentation, security assessments, and reviewing results later.
-
 -oN format provides clean, human-readable output
